@@ -1,4 +1,4 @@
-##echo por telenhack
+##echo por Ghioxd
 import os
 import sys
 from colorama import init, Fore, Back, Style
@@ -8,8 +8,8 @@ init()
 os.system("clear")
 print(Fore.RED+"#####################################################################################")
 print(Fore.RED+"  _   _")
-print(Fore.RED+" | \_/ |  " + Fore.YELLOW + " toolKit By: telenhack")
-print(Fore.RED+"  \   /  " + Fore.YELLOW + "https://github.com/telenhackse")
+print(Fore.RED+" | \_/ |  " + Fore.YELLOW + " toolKit By: Ghioxd")
+print(Fore.RED+"  \   /  " + Fore.YELLOW + "https://github.com/Ghioxd")
 print(Fore.RED+"   \_/                                         ")
 print(Fore.WHITE+"[1]  PhoneInfoga: Marco de recopilación de información para números de teléfono.")
 print(Fore.WHITE+"[2]  Lazymux-spanish: Lazymux un instalador de heramientas doblado.")
@@ -29,6 +29,7 @@ print(Fore.WHITE+"[15] ASU: Facebook Hacking Tool")
 print(Fore.WHITE+"[16] sqlmap: inyección de SQL, toma control de la base de datos")
 print(Fore.WHITE+"[17] Sherlock: Busque cuentas de redes sociales por nombre de usuario")
 print(Fore.WHITE+"[18] hackingtool: herramienta de piratería todo en uno para piratas informáticos")
+print(Fore.WHITE+"[19] Brutegram: Instagram multi-bruteforce")
 print(Fore.YELLOW+"[0] salir\n")
 print(Fore.RED+"#####################################################################################")
 
@@ -50,11 +51,11 @@ while Toolkit != 0:
     if Toolkit == 2:
         os.system("apt update -y")
         os.system("apt upgrade -y")
-        os.system("git clone https://github.com/telenhackse/lazymux-spanish")
+        os.system("git clone https://github.com/Ghioxd/lazymux-spanish")
     elif Toolkit == 2:
         os.system("apt update -y")
         os.system("apt upgrade -y")
-        os.system("git clone https://github.com/telenhackse/lazymux-spanish")
+        os.system("git clone https://github.com/Ghioxd/lazymux-spanish")
     if Toolkit == 3:
         os.system("apt update -y")
         os.system("apt upgrade -y")
@@ -185,3 +186,11 @@ while Toolkit != 0:
         os.system("apt update -y")
         os.system("apt upgrade -y")
         os.system("git clone https://github.com/Z4nzu/hackingtool")
+    if Toolkit == 19:
+        os.system("apt install python2")
+        os.system("pip2 install requests mechanize")
+        os.system("git clone https://github.com/Err0r-ICA/Brutegram")
+    elif Toolkit == 19:
+        os.system("apt install python2")
+        os.system("pip2 install requests mechanize")
+        os.system("git clone https://github.com/Err0r-ICA/Brutegram")
